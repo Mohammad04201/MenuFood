@@ -1,0 +1,32 @@
+form select {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='1em' height='1em' viewBox='0 0 16 16' fill='currentColor' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M1.646 5.646a.5.5 0 0 1 .708 0L8 11.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: left 0.75rem center;
+  background-size: 1rem;
+  direction: rtl;
+  text-align: right;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: border-color 0.2s;
+}
+
+form select:focus {
+  border-color: #ff5722;
+  box-shadow: 0 0 0 0.2rem rgba(255, 87, 34, 0.25);
+  outline: none;
+}
+.custom-select {
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-position: left 1rem center !important;
+  background-size: 1rem;
+  direction: rtl;
+  text-align: right;
+}
